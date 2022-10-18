@@ -1,0 +1,151 @@
+html {
+    background: #000000;
+    
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #000;
+    text-align: center;
+    color: #fff;
+    font-family: serif;
+    font-size: 20px;
+    line-height: 2;
+    margin: 0 auto;
+    max-width: 1000px;
+  
+}
+nav li {display:inline;
+        background: #444;
+    text-align:center;
+    padding-left:40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+        margin: 0 auto;
+        border: 1px solid #fff;
+  
+
+       
+}
+
+nav{background-color: dimgrey;
+    height:inherit;
+        text-align:center;
+    
+        margin:5px;
+    border: 1px solid #fff;
+    
+    width:auto;
+    background-image:url(Images/bannav7.jpg);
+    
+
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 1.3em;
+}
+
+
+
+b, strong {
+    font-weight: 600;
+}
+
+samp {
+    display: none;
+}
+
+img {
+    
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display:inline-block;
+    margin: 5px;
+    
+}
+
+
+main {
+    border: 1px solid #fff;
+    
+}
+
+
+section {
+     border: 1px solid #fff;
+    padding: 5px;
+}
+
+#albumlist {
+    text-align: center;
+    
+    
+    
+}
+
+albumleftli {text-align: left;
+    
+}
+
+albumleftol {
+    text-align: left;
+    
+}
+
+footer {
+    clear: both;
+}
+
+aside {
+    
+    display: none;
+    
+}
+
+button {
+   
+}
+
+#ban {
+   
+}
+
+ul {
+    text-align: left;
+}
+
+#navli {
+    text-align:center;
+}
+
+#bandpic {
+    float: right;
+}
+
+a:link {
+color: #cc0000;
+    
+}
+a:visited {
+color: #999999;
+}
+a:hover {
+color: #ff3300;
+}
+
+
+
+#navlink {
+   
+    
+    color: #fff;
+    
+        
+}

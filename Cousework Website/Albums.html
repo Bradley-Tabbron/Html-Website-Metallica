@@ -1,0 +1,262 @@
+<!doctype html>
+
+<html lang ="en">
+
+<head>
+<title>Metallica-Albums</title>
+<link rel = "stylesheet" href="main.css">
+</head>
+
+<body>
+   <header>
+       <img src ="Images/logo4.png"/>
+    </header>
+    <nav>
+        <ul id="navli">
+            <li><a id="navlink" href="index.html">Home</a></li>
+            <li><a id="navlink" href="Bandmembers.html">Band Members</a></li>
+            <li><a id="navlink" href="Albums.html">Albums</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Albums</h1> 
+      
+
+        <section id="albumlist">
+            <button onclick ="changealbuminfo('kea')"> <img style="max-width: 300px;" "max-height: 700px;" "margin: 0px;" src="Images/bankea.png"/></button>
+            <button onclick ="changealbuminfo('rtl')"><img style="max-width: 300px;" "max-height: 700px;" "margin: 0px;" src="Images/banrtl.png"/></button>
+           <button onclick ="changealbuminfo('mop')"><img style="max-width: 300px;" "max-height: 700px;" "margin: 0px;" src="Images/banmop.png"/></button>
+     <button onclick ="changealbuminfo('ajfa')"><img style="max-width: 300px;" "max-height: 700px;" "margin: 0px;" src="Images/banajfa.png"/></button>
+            <button onclick ="changealbuminfo('ba')"><img style="max-width: 300px;" "max-height: 700px;" "margin: 0px;" src="Images/banba2.png"/></button>
+            <button onclick ="changealbuminfo('l')"><img style="max-width: 300px;" "max-height: 700px;" "margin: 0px;" src="Images/banl.png"/></button>
+            <button onclick ="changealbuminfo('r')"><img style="max-width: 300px;" "max-height: 700px;" "margin: 0px;" src="Images/banr.png"/></button>
+            <button onclick ="changealbuminfo('sa')"><img style="max-width: 300px;" "max-height: 700px;" "margin: 0px;" src="Images/bansa.png"/></button>
+            <button onclick ="changealbuminfo('dm')"><img style="max-width: 300px;" "max-height: 700px;" "margin: 0px;" src="Images/bandm.png"/></button>
+            <button onclick ="changealbuminfo('hwtsd')"><img style="max-width: 300px;" "max-height: 700px;" "margin: 0px;" src="Images/banhtsd4.jpg"/></button>
+            
+
+            
+            
+        </section>
+     
+         <script>
+             function changealbuminfo(albumname){
+                
+                var y = document.getElementById(albumname);
+                 var x =document.getElementsByClassName('album')
+                 for(var i=0;i<x.length;i=i+1){
+                     if (x[i]==y){
+                         x[i].style.display="block";
+                     }
+                     else{
+                         x[i].style.display="none";
+                     }
+                 }
+                 
+               
+                  
+             }
+        </script>
+          <aside class="album" id="kea">
+            
+                <h2>Kill 'Em All</h2>
+            <p>1983</p>
+            <img src="Images/kea.png">
+                <ol>
+                <li>Hit The Lights </li>
+                <li>The Four Horsemen </li>
+                <li>Motorbreath </li>
+                    <li>Jump Into Fire </li>
+                    <li>(Anesthesia) Pulling Teeth </li>
+                    <li>Whiplash </li>
+                    <li>Phantom Lord </li>
+                    <li>No Remorse </li>
+                    <li>Seek And Destroy </li>
+                    <li>Metal Militia</li>
+            </ol>
+        </aside>
+              
+                <aside class="album" id="rtl">
+            
+                <h2>Ride The Lightning</h2>
+            <p>1984</p>
+            <img src="Images/rtl.png">
+                <ol>
+                <li>Fight Fire With Fire </li>
+                <li>Ride The Lightning </li>
+                <li>For Whom The Bell Tolls </li>
+                    <li>Fade To Black </li>
+                    <li>Trapped Under Ice </li>
+                    <li>Escape </li>
+                    <li>Creeping Death </li>
+                    <li>The Call Of Ktulu </li>
+            </ol>
+              </aside>
+        <aside class = "album" id="mop">
+            
+                <h2>Master Of Puppets</h2>
+            <p>1986</p>
+            <img src="Images/mop.png">
+                <ol>
+                <li>Battery </li>
+                <li>Master Of Puppets </li>
+                <li>The Thing That Should Not Be </li>
+                    <li>Welcome Home (Sanitarium) </li>
+                    <li>Disposable Heroes </li>
+                    <li>Leper Messiah </li>
+                    <li>Orion </li>
+                    <li>Damage Inc. </li>
+            </ol>
+        </aside>
+     <aside class="album" id="ajfa">
+            
+                <h2>...And Justice For All</h2>
+            <p>1988</p>
+            <img src="Images/ajfa.png">
+                <ol>
+                <li>Blackened </li>
+                <li>...And Justice For All </li>
+                <li>Eye Of The Beholder </li>
+                    <li>One </li>
+                    <li>The Shortest Straw </li>
+                    <li>Harvester Of Sorrow </li>
+                    <li>The Frayed Ends Of Sanity </li>
+                    <li>To Live Is To Die </li>
+                    <li>Dyers Eve </li>
+            </ol>
+        </aside>
+        
+          <aside class="album" id="ba">
+            
+                <h2>Metallica</h2>
+            <p>1991</p>
+            <img src="Images/ba.png">
+                <ol>
+                <li>Enter Sandman </li>
+                <li>Sad But True </li>
+                <li>Holier Than Thou </li>
+                    <li>The Unforgiven </li>
+                    <li>Wherever I May Roam </li>
+                    <li>Don't Tread On Me </li>
+                    <li>Through The Never </li>
+                    <li>Nothing Else Matters </li>
+                    <li>Of Wolf And Man </li>
+                    <li>The God That Failed </li>
+                    <li>My Friend Of Misery </li>
+                    <li>The Struggle Within </li>
+            </ol>
+        </aside>
+        
+          <aside class="album" id="l">
+            
+                <h2>Load</h2>
+            <p>1996</p>
+            <img src="Images/l.jpg">
+                <ol>
+                <li>Ain't My Bitch </li>
+                <li>2 X 4 </li>
+                <li>The House That Jack Built </li>
+                    <li>Until It Sleeps </li>
+                    <li>King Nothing </li>
+                    <li>Hero Of The Day </li>
+                    <li>Bleeding Me </li>
+                    <li>Cure </li>
+                    <li>Poor Twisted Me </li>
+                    <li>Wasting My Hate </li>
+                    <li>Mama Said </li>
+                    <li>Thorn Within </li>
+                    <li>Ronnie </li>
+                    <li>The Outlaw Torn </li>
+            </ol>
+        </aside>
+        
+     
+        
+          <aside class="album" id="r">
+            
+                <h2>Reload</h2>
+            <p>1997</p>
+            <img src="Images/r.png">
+                <ol>
+                <li>Bad Seed </li>
+                <li>Where The Wild Things Are </li>
+                <li>Prince Charming </li>
+                    <li>Low Man's Lyric </li>
+                    <li>Attitude </li>
+                    <li>Fixxxer </li>
+                    <li>Fuel </li>
+                    <li>Cure </li>
+                    <li>The Memory Remains </li>
+                    <li>Devil's Dance </li>
+                    <li>The Unforgiven II </li>
+                    <li>Better Than You </li>
+                    <li>Slither </li>
+                    <li>Carpe Diem Baby </li>
+            </ol>
+        </aside>
+              <aside class="album" id="sa">
+            
+                <h2>St. Anger</h2>
+            <p>2003</p>
+            <img src="Images/sa.png">
+                <ol>
+                <li>Frantic </li>
+                <li>St. Anger </li>
+                <li>Some Kind Of Monster </li>
+                    <li>Dirty Window </li>
+                    <li>Invisible Kid </li>
+                    <li>My World </li>
+                    <li>Shoot Me Again </li>
+                    <li>Sweet Amber </li>
+                    <li>The Unnamed Feeling </li>
+                    <li>Purify </li>
+                    <li>All Within My Hands </li>
+            </ol>
+        </aside>
+        
+           
+              <aside class="album" id="dm">
+            
+                <h2>Death Magnetic</h2>
+            <p>2008</p>
+            <img src="Images/dm.png">
+                <ol>
+                <li>That Was Just Your Life </li>
+                <li>The End Of The Line </li>
+                <li>Broken, Beat And Scarred </li>
+                    <li>The Day That Never Comes </li>
+                    <li>All Nightmare Long </li>
+                    <li>Cyanide </li>
+                    <li>The Unforgiven III </li>
+                    <li>The Judas Kiss </li>
+                    <li>Suicide And Redemption </li>
+                    <li>My Apocalypse </li>
+            </ol>
+        </aside>
+            
+                   <aside class="album" id="hwtsd">
+            
+                <h2>Hardwired... To Self Destruct</h2>
+            <p>2016</p>
+            <img src="Images/hwtsd.png">
+                <ol>
+                <li>Hardwired </li>
+                <li>Atlas Rise! </li>
+                <li>Now That We're Dead </li>
+                    <li>Moth Into Flame </li>
+                    <li>Dream No More </li>
+                    <li>Halo On Fire </li>
+                    <li>Confusion </li>
+                    <li>Manunkind </li>
+                    <li>Here Comes Revenge </li>
+                    <li>Am I Savage? </li>
+                    <li>Murder One </li>
+                    <li>Spit Out The Bone </li>
+            </ol>
+        </aside>
+    </main>
+    <footer> Website made by Bradley Tabbron. All images and tracklist's belong to Metallica.
+    </footer>
+</body>
+
+</html>
